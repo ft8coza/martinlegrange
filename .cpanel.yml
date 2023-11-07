@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/qfpuksur/public_html/martinlegrange.co.za/
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp *.* $DEPLOYPATH
+    
